@@ -5,7 +5,7 @@
 
 # Then create a schedule to run the script using crontab
 # crontab -e
-# 0 * * * * /path/to/script/time-to-speech.sh
+# 0 * * * * /path/to/script/time-to-speech.sh > /dev/null 2>&1
 
 # The audio files location
 DIR="$HOME/bin/time-to-speech/audio/"
