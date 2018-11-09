@@ -9,8 +9,9 @@
 
 # The audio files location
 DIR="/path/to/audio/files/"
+DIR="$HOME/bin/time-to-speech/audio/"
 
-# The audio files language 
+# The audio files language
 # make sure that you have the audio
 # files named in the following format
 # 1-fr.wav, 2-fr.wav, 3-fr.wav, ...
@@ -18,7 +19,7 @@ DIR="/path/to/audio/files/"
 # 1-en.wav, 2-en.wav, 3-en.wav, ...
 # You can make and download your audio files here:
 # http://public.research.att.com/~ttsweb/tts/demo.php
-LANG="-es"
+LANG="-en"
 
 # The audio files extension
 # .wav, .mp3
