@@ -8,7 +8,6 @@
 # 0 * * * * /path/to/script/time-to-speech.sh
 
 # The audio files location
-DIR="/path/to/audio/files/"
 DIR="$HOME/bin/time-to-speech/audio/"
 
 # The audio files language
