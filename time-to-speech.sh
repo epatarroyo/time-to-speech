@@ -28,6 +28,7 @@ EXT=".wav"
 # let's rock
 HOUR=$(date +%-l)
 aplay -q "$DIR$HOUR$LANG$EXT"
+notify-send 'What time is it?' "$HOUR o'clock!" -u low -i clock
 
 # Aplay only works with ALSA audio
 
